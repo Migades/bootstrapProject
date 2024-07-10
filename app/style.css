@@ -1,0 +1,64 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.toggle-link {
+    cursor: pointer;
+}
+
+.project-card img:hover {
+    opacity: 0.5;
+}
+
+.scale-on-hover {
+    border-radius: 15px;
+}
+
+.scale-on-hover:hover {
+    transform: scale(1.5);
+    transition: transform .5s ease;
+    z-index: 1;
+}
+
+/* imagen con aumento al pasar el ratón */
+.enlarge-image:hover {
+    transform: scale(1.5);
+    transition: transform 0.5s;
+}
+
+.inline-image {
+    width: 200px;
+    height: auto;
+    margin: 5px;
+    object-fit: cover;
+}
+
+.col {
+    display: flex;
+    justify-content: space-around;
+}
+
+.carousel-image {
+    max-height: 450px;
+    object-fit: cover;
+}
+
+.map-row {
+    margin-top: 50px;
+}
